@@ -47,14 +47,14 @@ class Song
       song_data = filename.split("-")
 
        artist = song_data[0]
-      song_name = song_data[1].split(".").delete_at(0).join
+      song_name = song_data[1].split(".").delete_at(0).squeeze
 
-      # song = self.new
-      # song.name = song_name
-      #
-      # song.artist_name = artist
-      #
-      # song
+      song = self.new
+      song.name = song_name
+
+      song.artist_name = artist
+
+      song
 
 
   end
