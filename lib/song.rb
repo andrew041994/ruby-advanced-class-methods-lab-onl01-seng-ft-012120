@@ -31,8 +31,8 @@ class Song
 
   def self.find_by_name(title)
     @@all.each { |i|if i ==title then puts i  }
-    
-    
+
+
   end
 
 
