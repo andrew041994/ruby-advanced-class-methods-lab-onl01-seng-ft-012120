@@ -33,7 +33,7 @@ class Song
 
     @@all.each do |song|
       if song == title
-        puts song
+        puts title
       end
     end
 
