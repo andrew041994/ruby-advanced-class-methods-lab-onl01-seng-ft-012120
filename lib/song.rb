@@ -47,7 +47,7 @@ class Song
       song_data = filename.split("-")
 
        artist = song_data[0].strip
-       
+
       song_name = song_data[1].split(".").delete_at(0).strip
 
       song = self.new
@@ -61,7 +61,7 @@ class Song
     song_data = filename.split("-")
 
      artist = song_data[0].strip
-     
+
     song_name = song_data[1].split(".").delete_at(0).strip
 
     @@all << song = self.new
@@ -69,7 +69,7 @@ class Song
     song.artist_name = artist
 
     song
-    
+
   end
 
 
