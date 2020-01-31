@@ -47,6 +47,7 @@ class Song
       song_data = filename.split("-")
       song_name = song_data[1].split(".")
       song_name[1].delete
+      puts song name
   end
 
 
