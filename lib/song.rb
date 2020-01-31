@@ -45,8 +45,8 @@ class Song
   def self.new_from_filename(filename)
 
       song_data = filename.split("-")
-      song_name = song_data[1].split(".")
-      puts song_name[0]
+      song_name = song_data[1].split(".").pop
+
   end
 
 
