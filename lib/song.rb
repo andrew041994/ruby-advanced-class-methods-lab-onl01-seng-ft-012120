@@ -45,6 +45,7 @@ class Song
   def self.new_from_filename(filename)
       song_data=[]
       song_data << filename.split("-")
+      song_data.flatten
   end
 
 
