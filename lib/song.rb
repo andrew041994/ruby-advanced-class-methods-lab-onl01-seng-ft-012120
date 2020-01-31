@@ -38,6 +38,7 @@ class Song
         return title
       else
       self.create_by_name
+    end
   end
 
 
