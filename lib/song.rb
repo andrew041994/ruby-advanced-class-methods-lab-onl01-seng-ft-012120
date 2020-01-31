@@ -30,7 +30,12 @@ class Song
   end
 
   def self.find_by_name(title)
-    binding.pry
+
+    @@all.each do |song|
+      if song == title
+        puts song
+      end
+    end
 
 
 
