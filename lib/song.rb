@@ -26,7 +26,7 @@ class Song
   def self.create_by_name(title)
     song = self.new
     song.name = title
-
+    @@all << song
 
 
   end
