@@ -44,9 +44,9 @@ class Song
 
   def self.new_from_filename(filename)
 
-      song_data = filename.split("-").strip
+      song_data = filename.split("-")
 
-       artist = song_data[0]
+       artist = song_data[0].strip
       song_name = song_data[1].split(".").delete_at(0).strip
 
       song = self.new
