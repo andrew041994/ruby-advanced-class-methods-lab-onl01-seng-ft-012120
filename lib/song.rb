@@ -17,9 +17,9 @@ class Song
     song
   end
 
-  def self.new_by_name(name)
+  def self.new_by_name(title)
     song = self.new
-    song.name = name
+    song.name = title
     song
   end
 
@@ -27,9 +27,13 @@ class Song
     @@all << song = self.new
     song.name = title
     song
-
   end
 
+  def self.find_by_name(title)
+    @@all.each { |i|if i ==title then puts i  }
+    
+    
+  end
 
 
 
