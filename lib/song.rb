@@ -46,6 +46,7 @@ class Song
       song_data=[]
       song_data << filename.split("-")
       song_data.flatten
+      song_data.split(".")
       binding.pry
   end
 
